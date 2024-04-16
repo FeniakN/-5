@@ -75,12 +75,12 @@ WSGI_APPLICATION = 'djangoProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': ‘<db_name>’,
-        'USER': '<db_username>',
-        'PASSWORD': '<password>',
-        'HOST': '<db_hostname_or_ip>',
-        'PORT': '<db_port>',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'Nastia',
+        'USER': 'postgres',
+        'PASSWORD': 'fYgZnOEIWKWhgw3F',
+        'HOST': '127.0.0.1',
+        'PORT':'5432',
     }
 }
 
